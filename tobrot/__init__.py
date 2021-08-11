@@ -97,7 +97,10 @@ GLEECH_UNZIP_COMMAND = os.environ.get("GLEECH_UNZIP_COMMAND", "gleechunzip")
 GLEECH_ZIP_COMMAND = os.environ.get("GLEECH_ZIP_COMMAND", "gleechzip")
 YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
 GYTDL_COMMAND = os.environ.get("GYTDL_COMMAND", "gytdl")
-RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
+RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive
+scope = drive
+token = {"access_token":"ya29.a0ARrdaM8KleNJhw2mAfKL9ch8leM8yhBXwfMMQgcaJmN23FOGzsJR4qF_Q8K6G54vXC9-fpU3L0TEbzT4E5I_LYNYaOLf022cukxFTFij7qNCUxfYFRvtGvUlsO2BtPymwzOJc2AcSshzzMpZik7XaZ-4WvWA","token_type":"Bearer","refresh_token":"1//0goryoPduGKKyCgYIARAAGBASNwF-L9IruuBEGrGhmrPD78PuYDfPWWdyf2yWEdYso5sTslUi5SEqYx_KUt1Ft9tz7oE8OEPUxbE","expiry":"2021-08-11T17:43:25.876373+05:30"}
+team_drive = 0AOngRBXCZopJUk9PVA")
 DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Maxx TD")
 INDEX_LINK = os.environ.get("INDEX_LINK", "")
 TELEGRAM_LEECH_COMMAND = os.environ.get("TELEGRAM_LEECH_COMMAND", "tgfile_leech")
