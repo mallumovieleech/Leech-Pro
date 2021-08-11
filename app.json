@@ -15,23 +15,23 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1295756"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1f2e07b7c28c4c734775879b23dff923"
     },
     "TG_BOT_TOKEN": {
       "description": "get this value from @BotFather",
-      "value": ""
+      "value": "1942726081:AAF9I0GcP6sLgT4iGY2q-7aK9OZc3s4WCiU"
     },
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work., Put Group ID",
-      "value": ""
+      "value": "-1001425812637"
     },
     "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
-      "value": ""
+      "value": "561339410"
     },
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
@@ -81,8 +81,8 @@
       "required": false
     },
     "INDEX_LINK": {
-      "description": "Enter your index link:",
-      "required": false
+      "description": "https://mmleech.mmleeech.workers.dev/0:",
+      "required": true
     },
     "GLEECH_COMMAND": {
       "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
@@ -109,8 +109,15 @@
       "required": false
     },
     "RCLONE_CONFIG": {
-      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
-      "required": false
+      "description": "[gdrivemmleech]
+type = drive
+scope = drive
+token = {"access_token":"ya29.a0ARrdaM_aaP6OHbnHTW-Otj21ad-t5UWL03DrKLz3QjgIxyF2OZLzA2Qet64rrS2zhtuR_A4FcmEtZ5fpuUB5fcUQNv7j6y_mNIlrsBSAR3lkeNXIBKoZ_4QCxVgzawHKSZAr_9ObvbDpyvIMYNm5nZ5SXkXT","token_type":"Bearer","refresh_token":"1//0gAqgfFc-eJdkCgYIARAAGBASNwF-L9IrIYqIulw0eC3f07FkypGUob7gLm3RZBeDRJMWjCy--pblZQGkdZUM0NYqPWLkx-3acPk","expiry":"2021-08-11T19:32:39.5659488+05:30"}
+team_drive = 0AOngRBXCZopJUk9PVA
+root_folder_id = C:\Users\Lenovo\AppData\Roaming\rclone
+client_id = 1089844541499-umnjuplcuhmcac8rg37rq89b7akksou4.apps.googleusercontent.com
+client_secret = n-Z7yClO8uUt_703OAq-jI_R)",
+      "required": true
     },
     "DESTINATION_FOLDER": {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
